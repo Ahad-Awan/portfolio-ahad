@@ -37,7 +37,9 @@ const Hero = () => {
           !leading-normal relative w-[20ch] overflow-hidden whitespace-nowrap
           animate-typewriter border-r-4 border-white "
         >
-          Frontend Developer
+          <LinearGradient gradient={["to left", "#ff9720 ,#fc0865"]}>
+            Frontend Developer
+          </LinearGradient>
         </h2>
 
         <p className="max-w-5xl text-center justify-center text-white xl:text-xl md:text-lg sm:text-sm text-md">
@@ -54,7 +56,7 @@ const Hero = () => {
         <a
           href="/Ahad-Resume.pdf"
           download
-          className="bg-gradient-to-r from-orange-400 to-pink-500 text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
+          className="bg-gradient-to-r from-[#fc0865] to-[#ff9720] text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
         >
           Download Resume
         </a>

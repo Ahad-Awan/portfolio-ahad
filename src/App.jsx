@@ -8,6 +8,7 @@ import Contact from "./sections/Contact";
 import StarCanvas from "./components/StarField";
 import Footer from "./components/Footer";
 import CursorGlow from "./components/CursorGlow";
+import Education from "./sections/Education";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Hero />
       <Skills />
       <Experience />
+      <Education />
       <Projects />
       <Contact />
       <Footer />
