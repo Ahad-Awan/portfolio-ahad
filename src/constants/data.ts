@@ -16,14 +16,14 @@ export const navLinks = [
   },
   {
     id: 4,
-    name: "Projects",
-    href: "#projects",
+    name: "Education",
+    href: "#education",
   },
 
   {
     id: 5,
-    name: "Education",
-    href: "#education",
+    name: "Projects",
+    href: "#projects",
   },
   {
     id: 6,
