@@ -283,7 +283,7 @@ export const workExperiences = [
     company: "Internship - TechOverflow",
     position: "Junior Frontend Developer",
     duration: "February 2025 - Current",
-    icon: "/public/techoverflow_logo.jpeg",
+    icon: "/techoverflow_logo.jpeg",
     technologies: [
       "JavaScript",
       "React",
@@ -346,7 +346,7 @@ export const workExperiences = [
     company: "Trainee - Frontend Developer",
     position: "Trainings for Tomorrow ( TFT )",
     duration: "December 2024 - February 2025",
-    icon: "/public/TFT.ico",
+    icon: "/TFT.ico",
     technologies: [
       "JavaScript",
       "React",
@@ -424,13 +424,9 @@ export const skills = [
   "Trello",
   "HTML5",
   "CSS3",
-  "Node.js",
-  "Express.js",
   "Git",
   "MongoDB",
-  "MySQL",
   "GitHub",
-  "Redux",
   "TailwindCSS",
   "Material UI",
   "ShadCn UI",
@@ -438,7 +434,6 @@ export const skills = [
   "Vite",
   "Vercel",
   "Netlify",
-  "Figma",
   "Framer Motion",
   "DataBase",
 ];
@@ -448,7 +443,7 @@ export const educationData = [
     degree: "Bachelor of Science in Information Technology",
     institution: "University of Punjab",
     duration: "2020 - 2024",
-    icon: "/public/PuLogo.png",
+    icon: "/PuLogo.png",
     grade: "2.75 / 4.0",
     subjects: ["PF", "OOP", "DSA", "DBMS"],
     achievements: [
@@ -461,7 +456,7 @@ export const educationData = [
     institution: "Government Graduate College Township, Lahore",
     degree: "Intermediate in Computer Science",
     duration: "2018 - 2020",
-    icon: "/public/GGCTLogo.png",
+    icon: "/GGCTLogo.png",
     grade: "A",
     subjects: ["Computer Science", "Mathematics", "Physics"],
     achievements: [
@@ -473,7 +468,7 @@ export const educationData = [
     institution: "Ch Rehmat Ali Memorial Trust Boys Secondary School",
     degree: "Matriculation in Science",
     duration: "2016 - 2018",
-    icon: "/public/SchoolLogo-removebg-preview.png",
+    icon: "/SchoolLogo-removebg-preview.png",
     grade: "A+",
     subjects: ["Biology", "Physics", "Chemistry", "Mathematics"],
     achievements: [
