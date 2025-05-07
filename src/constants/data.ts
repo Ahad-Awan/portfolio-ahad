@@ -34,13 +34,11 @@ export const navLinks = [
 
 export const myProjects = [
   {
-    title: "ThreeRun - 3D Obstacle Course Game",
-    desc: "A 3D obstacle course game built with React Three Fiber, featuring a third-person character controller with movement and animations.",
-    subdesc:
-      "Currently in early development, with plans for level completion, multiplayer, and collectibles.",
-    href: "https://github.com/A-coderr/3d_obstacle_course",
-    source: "https://a-coderr.github.io/3d_obstacle_course/",
-    logo: "projects/ThreeRun_Main_Screen.png",
+    title: "Modern E-Commerce Site",
+    desc: "A responsive e-commerce website built with React, Tailwind CSS, and Vite. It includes full shopping functionality with product management and category filtering. The admin dashboard allows managing products, categories, and users efficiently.",
+    live: "https://e-commerce-site-one-vert.vercel.app/",
+    github: "https://github.com/Ahad-Awan/React-E-Commerce",
+    logo: "projects/E-commerceLogo.png",
     logoStyle: {
       backgroundColor: "#b18eff",
       background:
@@ -58,41 +56,6 @@ export const myProjects = [
         id: 2,
         name: "TailwindCSS",
         path: "icons/tailwindcss-icon.svg",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "icons/typescript-icon.svg",
-      },
-      {
-        id: 4,
-        name: "Java Script",
-        path: "icons/javascript.svg",
-      },
-      {
-        id: 5,
-        name: "Three.js",
-        path: "icons/threejs.svg",
-      },
-      {
-        id: 6,
-        name: "HTML",
-        path: "icons/html-5.svg",
-      },
-      {
-        id: 7,
-        name: "Redux",
-        path: "icons/redux.svg",
-      },
-      {
-        id: 8,
-        name: "Prettier",
-        path: "icons/prettier.svg",
-      },
-      {
-        id: 9,
-        name: "ESLint",
-        path: "icons/eslint.svg",
       },
       {
         id: 10,

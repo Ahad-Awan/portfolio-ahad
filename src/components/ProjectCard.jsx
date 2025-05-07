@@ -24,9 +24,6 @@ const ProjectCard = ({ project }) => {
         <p className="text-[#afb0b6] text-xs md:text-base font-generalsans">
           {project.desc}
         </p>
-        <p className="text-[#afb0b6] text-xs md:text-base font-generalsans">
-          {project.subdesc}
-        </p>
       </div>
 
       <div className="flex flex-col items-start justify-between flex-wrap gap-5">
@@ -44,10 +41,10 @@ const ProjectCard = ({ project }) => {
 
         <div className="flex justify-between items-center w-full">
           {/* GitHub Link */}
-          {project.href && (
+          {project.github && (
             <motion.a
               className="flex items-center gap-2 cursor-pointer text-white"
-              href={project.href}
+              href={project.github}
               target="_blank"
               rel="noreferrer"
               whileHover={{ scale: 1.1 }}
@@ -58,20 +55,20 @@ const ProjectCard = ({ project }) => {
             </motion.a>
           )}
 
-          {/* Demo Link */}
-          <div className="flex items-center gap-6">
+          {/* Live Preview Link */}
+          {project.live && (
             <motion.a
               className="flex items-center gap-2 cursor-pointer text-white"
-              href={project.href}
+              href={project.live}
               target="_blank"
               rel="noreferrer"
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.2, ease: "easeOut" }}
             >
-              <p className="text-xs md:text-base">Demo</p>
+              <p className="text-xs md:text-base">Live Preview</p>
               <img src="arrow-up.png" alt="arrow" className="w-3 h-3" />
             </motion.a>
-          </div>
+          )}
         </div>
       </div>
     </motion.div>
@@ -84,11 +81,10 @@ ProjectCard.propTypes = {
   project: PropTypes.shape({
     logo: PropTypes.string.isRequired,
     logoStyle: PropTypes.object.isRequired,
-    source: PropTypes.string.isRequired,
+    github: PropTypes.string.isRequired,
+    live: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
-    subdesc: PropTypes.string.isRequired,
-    href: PropTypes.string.isRequired,
     tags: PropTypes.arrayOf(
       PropTypes.shape({
         name: PropTypes.string.isRequired,
