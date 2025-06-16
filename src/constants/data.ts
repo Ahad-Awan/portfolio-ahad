@@ -393,12 +393,14 @@ export const skills = [
   "TailwindCSS",
   "Material UI",
   "ShadCn UI",
-  "UI/UX",
   "Vite",
   "Vercel",
   "Netlify",
-  "Framer Motion",
   "DataBase",
+  "SQL",
+  "PostgreSQL",
+  "NOSQL",
+  "MongoDB",
 ];
 
 export const educationData = [
