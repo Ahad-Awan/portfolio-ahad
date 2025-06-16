@@ -50,7 +50,7 @@ const Hero = () => {
       </div>
 
       {/* Resume Download Button + Social Icons */}
-      <div className="flex flex-col items-center gap-6 mt-6 sm:mt-6 mt-4">
+      <div className="flex flex-col items-center gap-6 mt-6 sm:mt-6">
         <a
           href="/Ahad-Resume.pdf"
           download
