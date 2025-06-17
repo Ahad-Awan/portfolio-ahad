@@ -10,10 +10,12 @@ import Footer from "./components/Footer";
 import CursorGlow from "./components/CursorGlow";
 import Education from "./sections/Education";
 import TechStack from "./sections/TechStack";
+import { Toaster } from "react-hot-toast";
 
 export default function App() {
   return (
     <>
+      <Toaster position="top-center" reverseOrder={false} />
       <Navbar />
       <Hero />
       <Skills />

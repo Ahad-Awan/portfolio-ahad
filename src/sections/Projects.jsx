@@ -7,7 +7,7 @@ import { myProjects } from "../constants/data";
 import ProjectCard from "../components/ProjectCard";
 import { motion } from "framer-motion";
 
-const AUTO_SLIDE_INTERVAL = 2000;
+const AUTO_SLIDE_INTERVAL = 3000;
 
 const Projects = () => {
   const [slideIndex, setSlideIndex] = useState(0);
