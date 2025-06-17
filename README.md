@@ -91,10 +91,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 <div align="center"> 
    <h3>📩 Connect with Me ⬇️</h3>
    <h4>I’m actively looking for new opportunities! If you're a recruiter or hiring manager, feel free to reach out.</h4>
-   <a href="https://www.linkedin.com/in/anzhelikakostyuk/" target="_blank">
-     <img src="https://img.shields.io/badge/LinkedIn-anzhelikakostyuk-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile">
+   <a href="https://www.linkedin.com/in/muhammad-ahad1/" target="_blank">
+     <img src="https://img.shields.io/badge/linkedin.com/in/muhammad-ahad1-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile">
    </a>
-   <a href="https://github.com/A-coderr" target="_blank">
-     <img src="https://img.shields.io/badge/GitHub-A--coderr-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile">
+   <a href="https://github.com/Ahad-Awan" target="_blank">
+     <img src="https://img.shields.io/badge/github.com/Ahad-Awan-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile">
    </a>
 </div>
