@@ -52,7 +52,7 @@ const Hero = () => {
       {/* Resume Download Button + Social Icons */}
       <div className="flex flex-col items-center gap-6 mt-6 sm:mt-6">
         <a
-          href="/Ahad-Resume.pdf"
+          href="/Ahad-Resume-Frontend.pdf"
           download
           className="bg-gradient-to-r from-[#fc0865] to-[#ff9720] text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:scale-105 transition-transform duration-300 text-sm sm:text-base"
         >
