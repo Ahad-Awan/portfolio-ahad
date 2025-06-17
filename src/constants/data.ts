@@ -34,11 +34,11 @@ export const navLinks = [
 
 export const myProjects = [
   {
-    title: "Modern E-Commerce Site",
-    desc: "A responsive e-commerce website built with React, Tailwind CSS, and Vite. It includes full shopping functionality with product management and category filtering. The admin dashboard allows managing products, categories, and users efficiently.",
+    title: "E - Commerce Website",
+    desc: "A responsive e-commerce website built with React, Tailwind CSS, and Vite. It includes full shopping functionality with product management and category filtering.",
     live: "https://e-commerce-site-one-vert.vercel.app/",
     github: "https://github.com/Ahad-Awan/React-E-Commerce",
-    logo: "projects/E-commerceLogo.png",
+    logo: "projects/e-commerce.png",
     logoStyle: {
       backgroundColor: "#b18eff",
       background:
@@ -58,6 +58,16 @@ export const myProjects = [
         path: "icons/tailwindcss-icon.svg",
       },
       {
+        id: 4,
+        name: "Java Script",
+        path: "icons/javascript.svg",
+      },
+      {
+        id: 5,
+        name: "Vercel",
+        path: "icons/vercel.svg",
+      },
+      {
         id: 10,
         name: "Vite",
         path: "icons/vite.svg",
@@ -65,13 +75,11 @@ export const myProjects = [
     ],
   },
   {
-    title: "Anzhelika Kostyuk - Portfolio Website",
-    desc: "My Portfolio Website, a showcase of my skills, projects, and experience as a software developer.",
-    subdesc:
-      "Built with modern web technologies, this portfolio highlights interactive 3D elements, smooth animations, and a responsive design for an engaging user experience.",
-    href: "https://github.com/A-coderr/portfolio-website",
-    source: "https://a-coderr.github.io/portfolio-website/",
-    logo: "projects/Portfolio_Main.png",
+    title: "Ahad - Portfolio Website",
+    desc: "My Portfolio Website a reflection of my journey as a frontend developer, showcasing my skills, projects, and creativity with interactive, responsive design.",
+    live: "https://ahad-portfolio-pi.vercel.app/",
+    github: "https://github.com/Ahad-Awan/portfolio-ahad",
+    logo: "projects/portfolio.png",
     logoStyle: {
       backgroundColor: "#4FC3F7",
       background:
@@ -91,11 +99,6 @@ export const myProjects = [
         path: "icons/tailwindcss-icon.svg",
       },
       {
-        id: 3,
-        name: "TypeScript",
-        path: "icons/typescript-icon.svg",
-      },
-      {
         id: 4,
         name: "Java Script",
         path: "icons/javascript.svg",
@@ -106,40 +109,23 @@ export const myProjects = [
         path: "icons/threejs.svg",
       },
       {
-        id: 6,
-        name: "HTML",
-        path: "icons/html-5.svg",
-      },
-      {
-        id: 7,
-        name: "CSS",
-        path: "icons/css-3.svg",
-      },
-      {
-        id: 8,
-        name: "Prettier",
-        path: "icons/prettier.svg",
-      },
-      {
-        id: 9,
-        name: "ESLint",
-        path: "icons/eslint.svg",
-      },
-      {
         id: 10,
         name: "Vite",
         path: "icons/vite.svg",
       },
+      {
+        id: 5,
+        name: "Vercel",
+        path: "icons/vercel.svg",
+      },
     ],
   },
   {
-    title: "Karate Galaxy - Karate Website",
-    desc: "My first ever web project, built as part of a college assignment and the starting point of my journey as a software developer.",
-    subdesc:
-      "Built using only HTML and CSS, it is a foundational project that reflects my early passion for web development.",
-    href: "https://a-coderr.github.io/karate-galaxy/",
-    source: "https://github.com/A-coderr/Karate_HTML_CSS",
-    logo: "projects/KarateGalaxy_Main.png",
+    title: "Kanban Board",
+    desc: "Interactive Kanban board built with HTML, CSS, and JavaScript. Features task creation and smooth drag and drop for easy task management.",
+    live: "https://kanban-board-js-five.vercel.app/",
+    github: "https://github.com/Ahad-Awan/Kanban-Board-js",
+    logo: "projects/kanban.png",
     logoStyle: {
       backgroundColor: "#A0F0BC",
       background:
@@ -158,16 +144,24 @@ export const myProjects = [
         name: "CSS",
         path: "icons/css-3.svg",
       },
+      {
+        id: 3,
+        name: "Java Script",
+        path: "icons/javascript.svg",
+      },
+      {
+        id: 4,
+        name: "Vercel",
+        path: "icons/vercel.svg",
+      },
     ],
   },
   {
-    title: "SKIF Karate Canada Website",
-    desc: "A modern, responsive website built with Next.js to represent the SKIF Karate Canada.",
-    subdesc:
-      "This project showcases a blend of modern web development and traditional martial arts values.",
-    href: "https://skif-website.vercel.app/",
-    source: "https://github.com/A-coderr/skif-website",
-    logo: "projects/skif.png",
+    title: "Personal Dashboard",
+    desc: "Modern personal dashboard with a sleek UI, interactive charts, and responsive design built for smooth data visualization, effortless navigation, and real-time insights.",
+    live: "https://react-dashboard-one-mu.vercel.app/",
+    github: "https://github.com/Ahad-Awan/React-DashBoard",
+    logo: "projects/dashboard.png",
     logoStyle: {
       backgroundColor: "#FF4C4C",
       background:
@@ -182,19 +176,9 @@ export const myProjects = [
         path: "icons/react.svg",
       },
       {
-        id: 2,
-        name: "Nextjs",
-        path: "icons/nextjs.svg",
-      },
-      {
         id: 3,
         name: "TailwindCSS",
         path: "icons/tailwindcss-icon.svg",
-      },
-      {
-        id: 4,
-        name: "TypeScript",
-        path: "icons/typescript-icon.svg",
       },
       {
         id: 5,
@@ -207,29 +191,102 @@ export const myProjects = [
         path: "icons/html-5.svg",
       },
       {
-        id: 7,
-        name: "CSS",
-        path: "icons/css-3.svg",
+        id: 11,
+        name: "Vite",
+        path: "icons/vite.svg",
       },
       {
-        id: 8,
-        name: "Prettier",
-        path: "icons/prettier.svg",
+        id: 12,
+        name: "Vercel",
+        path: "icons/vercel.svg",
+      },
+    ],
+  },
+  {
+    title: "Personal Portfolio Website",
+    desc: "A sleek, high performance personal portfolio built with React, Vite, and Tailwind CSS. It highlights my projects and skills with elegant animations and a fully responsive, modern design.",
+    live: "https://muhammad-ahad-portfolio.vercel.app/",
+    github: "https://github.com/Ahad-Awan/ahad-portfolio",
+    logo: "projects/ahad-portfolio.png",
+    logoStyle: {
+      backgroundColor: "#FF8A65",
+      background:
+        "linear-gradient(0deg, #FF8A6550, #FF8A6550), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+      border: "0.2px solid rgba(255, 138, 101, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(255, 138, 101, 0.3)",
+    },
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "icons/react.svg",
       },
       {
-        id: 9,
-        name: "ESLint",
-        path: "icons/eslint.svg",
+        id: 3,
+        name: "TailwindCSS",
+        path: "icons/tailwindcss-icon.svg",
       },
       {
-        id: 10,
-        name: "Markdown",
-        path: "icons/markdown.svg",
+        id: 5,
+        name: "Java Script",
+        path: "icons/javascript.svg",
       },
       {
         id: 11,
         name: "Vite",
         path: "icons/vite.svg",
+      },
+      {
+        id: 12,
+        name: "Vercel",
+        path: "icons/vercel.svg",
+      },
+    ],
+  },
+  // {
+  //   title: "E - Learn",
+  //   desc: "A modern real-time chat application built using React, Socket.io, and Node.js. Supports multiple chat rooms, typing indicators, and instant message delivery.",
+  //   live: "https://chatapp-socket.vercel.app/",
+  //   github: "https://github.com/Ahad-Awan/RealTime-ChatApp",
+  //   logo: "projects/e-learn.png",
+  //   logoStyle: {
+  //     backgroundColor: "#FFD54F",
+  //     background:
+  //       "linear-gradient(0deg, #FFD54F50, #FFD54F50), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+  //     border: "0.2px solid rgba(255, 213, 79, 1)",
+  //     boxShadow: "0px 0px 60px 0px rgba(255, 213, 79, 0.3)",
+  //   },
+  //   tags: [
+  //     { id: 1, name: "React.js", path: "icons/react.svg" },
+  //     { id: 2, name: "Socket.io", path: "icons/socketio-icon.svg" },
+  //     { id: 3, name: "Node.js", path: "icons/nodejs-icon.svg" },
+  //     { id: 4, name: "Express.js", path: "icons/expressjs-icon.svg" },
+  //     { id: 5, name: "Vercel", path: "icons/vercel.svg" },
+  //   ],
+  // },
+  {
+    title: "E - Learn",
+    desc: "E-Learn is a responsive educational platform built with HTML and CSS, featuring a clean design and user friendly interface for effective learning.",
+    live: "https://e-learn-seven.vercel.app/",
+    github: "https://github.com/Ahad-Awan/E-LEARN",
+    logo: "projects/e-learn.png",
+    logoStyle: {
+      backgroundColor: "#4DB6AC",
+      background:
+        "linear-gradient(0deg, #4DB6AC50, #4DB6AC50), linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(208, 213, 221, 0.85) 100%)",
+      border: "0.2px solid rgba(77, 182, 172, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(77, 182, 172, 0.3)",
+    },
+    tags: [
+      {
+        id: 1,
+        name: "HTML",
+        path: "icons/html-5.svg",
+      },
+      {
+        id: 2,
+        name: "CSS",
+        path: "icons/css-3.svg",
       },
       {
         id: 12,

@@ -83,7 +83,12 @@ const Hero = () => {
                   : {}
               }
             >
-              <SocialIcon className="heroIcon" url={link.url} />
+              <SocialIcon
+                className="heroIcon"
+                url={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              />
             </motion.div>
           ))}
         </motion.div>
