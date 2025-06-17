@@ -43,6 +43,8 @@ const Footer = () => {
                   bgColor="transparent"
                   fgColor="white"
                   style={{ height: 35, width: 35 }}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 />
               </motion.div>
             ))}
