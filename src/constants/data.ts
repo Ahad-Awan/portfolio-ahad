@@ -329,36 +329,6 @@ export const workExperiences = [
         description: "",
         link: "",
       },
-      // {
-      //   name: "Supply Chain DLX",
-      //   description: "",
-      //   link: "",
-      // },
-      // {
-      //   name: "CCSIF Trucking DLX",
-      //   description: "",
-      //   link: "",
-      // },
-      // {
-      //   name: "Reacteroids Onboarding",
-      //   description: "",
-      //   link: "",
-      // },
-      // {
-      //   name: "vConestoga Platform",
-      //   description: "",
-      //   link: "",
-      // },
-      // {
-      //   name: "Trucking Inspection DLX",
-      //   description: "",
-      //   link: "",
-      // },
-      // {
-      //   name: "Motive Power DLX",
-      //   description: "",
-      //   link: "",
-      // },
     ],
   },
   {
@@ -389,15 +359,15 @@ export const workExperiences = [
         link: "",
       },
       {
+        name: "Kanban Board ( JavaScript )",
+        description: "",
+        link: "",
+      },
+      {
         name: "Calculator",
         description: "",
         link: "",
       },
-      // {
-      //   name: "Bloom DLX",
-      //   description: "",
-      //   link: "",
-      // },
     ],
   },
   //   {

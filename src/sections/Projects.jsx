@@ -6,8 +6,9 @@ import { LinearGradient } from "react-text-gradients";
 import { myProjects } from "../constants/data";
 import ProjectCard from "../components/ProjectCard";
 import { motion } from "framer-motion";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
-const AUTO_SLIDE_INTERVAL = 3000;
+const AUTO_SLIDE_INTERVAL = 2500;
 
 const Projects = () => {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -42,6 +43,14 @@ const Projects = () => {
     }
   };
 
+  const prevSlide = () => {
+    setSlideIndex((prev) => (prev - 1 + myProjects.length) % myProjects.length);
+  };
+
+  const nextSlide = () => {
+    setSlideIndex((prev) => (prev + 1) % myProjects.length);
+  };
+
   return (
     <section className="w-full flex justify-center mb-20 px-4" id="projects">
       <div className="flex flex-col w-full max-w-7xl items-center justify-start">
@@ -59,33 +68,50 @@ const Projects = () => {
           </motion.h2>
         </div>
 
-        <motion.div
-          drag="x"
-          dragConstraints={{ left: 0, right: 0 }}
-          onDragEnd={(event, info) => {
-            const swipe = info.offset.x;
-            if (swipe > 50) {
-              setSlideIndex(
-                (prev) => (prev - 1 + myProjects.length) % myProjects.length
-              );
-            } else if (swipe < -50) {
-              setSlideIndex((prev) => (prev + 1) % myProjects.length);
-            }
-          }}
-          onMouseEnter={stopAutoSlide}
-          onMouseLeave={startAutoSlide}
-          className="w-full mt-24 mb-12 md:mt-32 md:mb-20 lg:mt-40 h-[400px] md:h-[500px] flex items-center justify-center cursor-grab active:cursor-grabbing"
-        >
-          {slides.length > 0 && (
-            <Carousel
-              slides={slides}
-              goToSlide={slideIndex}
-              offsetRadius={1}
-              showNavigation={false}
-              animationConfig={config.stiff}
-            />
-          )}
-        </motion.div>
+        <div className="relative w-full mt-24 mb-12 md:mt-32 md:mb-20 lg:mt-40 h-[400px] md:h-[500px] flex items-center justify-center">
+          <motion.div
+            drag="x"
+            dragConstraints={{ left: 0, right: 0 }}
+            onDragEnd={(event, info) => {
+              const swipe = info.offset.x;
+              if (swipe > 50) prevSlide();
+              else if (swipe < -50) nextSlide();
+            }}
+            onMouseEnter={stopAutoSlide}
+            onMouseLeave={startAutoSlide}
+            className="w-full h-full flex items-center justify-center cursor-grab active:cursor-grabbing"
+          >
+            {slides.length > 0 && (
+              <Carousel
+                slides={slides}
+                goToSlide={slideIndex}
+                offsetRadius={1}
+                showNavigation={false}
+                animationConfig={config.stiff}
+              />
+            )}
+          </motion.div>
+
+          {/* Left Arrow */}
+          <button
+            onClick={prevSlide}
+            onMouseEnter={stopAutoSlide}
+            onMouseLeave={startAutoSlide}
+            className="absolute left-4 md:left-8 text-white bg-[#1a1a1a80] p-2 rounded-full hover:bg-[#fc0865] transition z-50"
+          >
+            <ArrowLeft className="w-5 h-5" />
+          </button>
+
+          {/* Right Arrow */}
+          <button
+            onClick={nextSlide}
+            onMouseEnter={stopAutoSlide}
+            onMouseLeave={startAutoSlide}
+            className="absolute right-4 md:right-8 text-white bg-[#1a1a1a80] p-2 rounded-full hover:bg-[#ff9720] transition z-50"
+          >
+            <ArrowRight className="w-5 h-5" />
+          </button>
+        </div>
       </div>
     </section>
   );
