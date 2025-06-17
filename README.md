@@ -6,13 +6,12 @@
   <img src="public/logo.png" alt="Logo" width="200" align="right"/>
    &nbsp;&nbsp;&nbsp;&nbsp;
   <h4>
-    A showcase of my skills, projects, and expertise as a Software Developer.  
-    This website is built using modern web technologies and includes interactive 3D elements to create an engaging experience.
+    My Portfolio Website a reflection of my journey as a frontend developer, showcasing my skills, projects, and creativity with interactive, responsive design.
   </h4>
   <p>
     <span style="font-size: 1.2em; font-weight: bold;">🔗 Live Demo:</span>
-    <a href="https://a-coderr.github.io/portfolio-website/" target="_blank">
-      Anzhelika Kostyuk
+    <a href="https://ahad-portfolio-pi.vercel.app/" target="_blank">
+      Ahad Portfolio Website
     </a>
   </p>
 </div>
@@ -30,7 +29,7 @@ A professional portfolio and personal branding site that brings my developer jou
 ✅ **Fully Responsive** – Works across desktops, tablets, and mobile devices.  
 ✅ **Modern UI/UX** – Styled with **Tailwind CSS** for a clean and professional look.  
 ✅ **Easy Navigation** – Smooth scrolling and intuitive layout for better user experience.  
-✅ **Hosted on GitHub Pages** – Easily accessible with continuous deployment.
+✅ **Hosted on Vercel** – Easily accessible with continuous deployment.
 
 ---
 
@@ -57,7 +56,7 @@ A professional portfolio and personal branding site that brings my developer jou
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 <br/><br/>**Hosting:**<br/><br/>
-![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
 
@@ -71,8 +70,8 @@ To run this project locally, follow these steps:
 ### Installation
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/A-coderr/three_portfolio.git
-   cd three_portfolio
+   git clone https://github.com/Ahad-Awan/portfolio-ahad.git
+   cd portfolio-ahad
    ```
 2. **Install dependencies**
    ```sh
