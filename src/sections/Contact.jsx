@@ -114,7 +114,7 @@ const Contact = () => {
 
             <motion.button
               type="submit"
-              className="bg-[#ff9720] text-black w-full sm:w-fit py-3 px-6 rounded-lg font-bold outline-none self-center sm:self-start"
+              className="bg-gradient-to-r from-[#fc0865] to-[#ff9720] text-white w-full py-3 px-6 rounded-lg font-bold outline-none self-center sm:self-start"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
             >
