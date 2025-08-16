@@ -82,7 +82,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="py-3 px-4 bg-[#46454d] rounded-lg"
-                placeholder="ex. John Doe"
+                placeholder="ex. Muhammad Ahad"
               />
             </label>
 
@@ -95,7 +95,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="py-3 px-4 bg-[#46454d] rounded-lg"
-                placeholder="ex. johndoe@gmail.com"
+                placeholder="ex. ahad@gmail.com"
               />
             </label>
 

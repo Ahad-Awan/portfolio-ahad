@@ -300,6 +300,34 @@ export const myProjects = [
 export const workExperiences = [
   {
     id: 1,
+    company: "TechBuggs",
+    position: "Frontend Developer",
+    duration: "February 2025 - Current",
+    icon: "/techbuggslogo.png",
+    technologies: [
+      "JavaScript",
+      "React",
+      "Next.js",
+      "TypeScript",
+      "REST APIs",
+      "HTML5",
+      "CSS3",
+      "TailwindCSS",
+      "Material UI",
+      "ShadCn UI",
+      "Vercel",
+      "GitHub",
+    ],
+    projects: [
+      {
+        name: "Tech Buggs Website",
+        description: "",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 1,
     company: "Internship - TechOverflow",
     position: "Junior Frontend Developer",
     duration: "February 2025 - Current",
@@ -370,32 +398,6 @@ export const workExperiences = [
       },
     ],
   },
-  //   {
-  //     id: 3,
-  //     company: "Conestoga College",
-  //     position: "Mobile Application Developer (Co-op)",
-  //     duration: "June 2020 - December 2020",
-  //     icon: "conestoga_logo.png",
-  //     technologies: [
-  //       "Java",
-  //       "Swift",
-  //       "Python",
-  //       "Figma",
-  //       "Firebase",
-  //       "AR",
-  //       "Agile",
-  //       "Scrum",
-  //       "Git",
-  //       "GitHub",
-  //     ],
-  //     projects: [
-  //       {
-  //         name: "AR Mask Sizing Assistant",
-  //         description: "",
-  //         link: "",
-  //       },
-  //     ],
-  //   },
 ];
 
 export const socialLinks = [

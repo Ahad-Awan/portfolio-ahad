@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import Carousel from "react-spring-3d-carousel";
-import { config } from "react-spring";
+s;
 import { v4 as uuidv4 } from "uuid";
 import { LinearGradient } from "react-text-gradients";
 import { myProjects } from "../constants/data";
@@ -8,7 +8,7 @@ import ProjectCard from "../components/ProjectCard";
 import { motion } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
-const AUTO_SLIDE_INTERVAL = 2500;
+const AUTO_SLIDE_INTERVAL = 2000;
 
 const Projects = () => {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -87,7 +87,7 @@ const Projects = () => {
                 goToSlide={slideIndex}
                 offsetRadius={1}
                 showNavigation={false}
-                animationConfig={config.stiff}
+                animationConfig={{ tension: 120, friction: 18 }} // 👈 Smooth custom config
               />
             )}
           </motion.div>
@@ -97,7 +97,7 @@ const Projects = () => {
             onClick={prevSlide}
             onMouseEnter={stopAutoSlide}
             onMouseLeave={startAutoSlide}
-            className="absolute left-4 md:left-8 text-white bg-[#1a1a1a80] p-2 rounded-full hover:bg-[#fc0865] transition z-50"
+            className="hidden md:flex absolute -left-10 lg:-left-16 text-white bg-[#1a1a1a80] p-2 rounded-full hover:bg-[#fc0865] transition z-50"
           >
             <ArrowLeft className="w-5 h-5" />
           </button>
@@ -107,7 +107,7 @@ const Projects = () => {
             onClick={nextSlide}
             onMouseEnter={stopAutoSlide}
             onMouseLeave={startAutoSlide}
-            className="absolute right-4 md:right-8 text-white bg-[#1a1a1a80] p-2 rounded-full hover:bg-[#ff9720] transition z-50"
+            className="hidden md:flex absolute -right-10 lg:-right-16 text-white bg-[#1a1a1a80] p-2 rounded-full hover:bg-[#ff9720] transition z-50"
           >
             <ArrowRight className="w-5 h-5" />
           </button>
