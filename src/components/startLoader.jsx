@@ -17,21 +17,16 @@ const Loader = () => {
     >
       <div className="flex w-full h-full absolute inset-0">
         {stripes.map((_, i) => (
-          <div key={i} className="flex flex-1 h-full relative">
-            <motion.div
-              className="flex-1 bg-gradient-to-b from-[#fc0865] to-[#ff9720]"
-              variants={stripeVariants}
-              transition={{
-                duration: 1.4,
-                ease: [0.65, 0, 0.35, 1],
-                delay: i * 0.15,
-              }}
-            />
-
-            {i < stripes.length - 1 && (
-              <div className="w-[2px] bg-white h-full" />
-            )}
-          </div>
+          <motion.div
+            key={i}
+            className="flex-1 bg-gradient-to-b from-[#fc0865] to-[#ff9720]"
+            variants={stripeVariants}
+            transition={{
+              duration: 1.4,
+              ease: [0.65, 0, 0.35, 1],
+              delay: i * 0.15,
+            }}
+          />
         ))}
       </div>
 
