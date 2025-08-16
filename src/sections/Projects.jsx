@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import Carousel from "react-spring-3d-carousel";
-s;
 import { v4 as uuidv4 } from "uuid";
 import { LinearGradient } from "react-text-gradients";
 import { myProjects } from "../constants/data";
